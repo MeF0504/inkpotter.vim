@@ -47,7 +47,7 @@ highlight FoldColumn    cterm=NONE ctermfg=63 ctermbg=232 gui=NONE guifg=#8b8bcd
 highlight Directory     cterm=NONE ctermfg=46 ctermbg=NONE gui=NONE guifg=#00ff8b guibg=NONE
 highlight LineNr        cterm=NONE ctermfg=243 ctermbg=232 gui=NONE guifg=#767676 guibg=#2e2e2e
 highlight NonText       cterm=BOLD ctermfg=63 ctermbg=NONE gui=BOLD guifg=#8b8bcd guibg=NONE
-highlight SpecialKey    cterm=BOLD ctermfg=243 ctermbg=233 gui=BOLD guifg=#121212
+highlight SpecialKey    cterm=BOLD ctermfg=232 ctermbg=237 gui=BOLD guifg=#050505 guibg=#303060
 highlight Title         cterm=BOLD ctermfg=97 ctermbg=NONE gui=BOLD guifg=#ff005f guibg=NONE
 highlight Visual        cterm=NONE ctermfg=231 ctermbg=61 gui=NONE guifg=#eeeeee guibg=#4e4e8f
 
