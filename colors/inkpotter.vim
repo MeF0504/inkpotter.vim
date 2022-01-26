@@ -55,13 +55,13 @@ highlight Comment       cterm=NONE ctermfg=66 ctermbg=NONE gui=ITALIC guifg=#5f8
 highlight Constant      cterm=NONE ctermfg=215 ctermbg=NONE gui=NONE guifg=#ffcd8b guibg=NONE
 highlight String        cterm=NONE ctermfg=222 ctermbg=NONE gui=NONE guifg=#ffd787 guibg=NONE
 highlight Error         cterm=NONE ctermfg=231 ctermbg=52 gui=NONE guifg=#ffffff guibg=#6e2e2e
-highlight Identifier    cterm=NONE ctermfg=110 ctermbg=NONE gui=NONE guifg=#87afd7 guibg=NONE
+highlight Identifier    cterm=NONE ctermfg=110 ctermbg=NONE gui=NONE guifg=#87aff7 guibg=NONE
 highlight Ignore        cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 highlight Number        cterm=NONE ctermfg=9 ctermbg=NONE gui=NONE guifg=Red guibg=NONE
 highlight PreProc       cterm=NONE ctermfg=35 ctermbg=NONE gui=NONE guifg=#00af5f guibg=NONE
 highlight Special       cterm=NONE ctermfg=135 ctermbg=NONE gui=NONE guifg=#c080d0 guibg=NONE
 highlight SpecialChar   cterm=NONE ctermfg=135 ctermbg=235 gui=NONE guifg=#d580e8 guibg=#333333
-highlight Statement     cterm=NONE ctermfg=39 ctermbg=NONE gui=NONE guifg=#7884fa guibg=NONE
+highlight Statement     cterm=NONE ctermfg=63 ctermbg=NONE gui=NONE guifg=#7160e8 guibg=NONE
 highlight Todo          cterm=BOLD ctermfg=16 ctermbg=143 gui=BOLD guifg=#303030 guibg=#d0a060
 highlight Type          cterm=NONE ctermfg=149 ctermbg=NONE gui=NONE guifg=#afd75f guibg=NONE
 highlight Underlined    cterm=BOLD ctermfg=227 ctermbg=NONE gui=BOLD guifg=#df9f2d guibg=NONE
