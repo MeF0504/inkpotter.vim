@@ -61,7 +61,7 @@ highlight Number        cterm=NONE ctermfg=9 ctermbg=NONE gui=NONE guifg=Red gui
 highlight PreProc       cterm=NONE ctermfg=35 ctermbg=NONE gui=NONE guifg=#00af5f guibg=NONE
 highlight Special       cterm=NONE ctermfg=135 ctermbg=NONE gui=NONE guifg=#c080d0 guibg=NONE
 highlight SpecialChar   cterm=NONE ctermfg=135 ctermbg=235 gui=NONE guifg=#d580e8 guibg=#333333
-highlight Statement     cterm=NONE ctermfg=63 ctermbg=NONE gui=NONE guifg=#7160e8 guibg=NONE
+highlight Statement     cterm=NONE ctermfg=69 ctermbg=NONE gui=NONE guifg=#757bf8 guibg=NONE
 highlight Todo          cterm=BOLD ctermfg=16 ctermbg=143 gui=BOLD guifg=#303030 guibg=#d0a060
 highlight Type          cterm=NONE ctermfg=149 ctermbg=NONE gui=NONE guifg=#afd75f guibg=NONE
 highlight Underlined    cterm=BOLD ctermfg=227 ctermbg=NONE gui=BOLD guifg=#df9f2d guibg=NONE
