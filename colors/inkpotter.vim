@@ -66,8 +66,8 @@ highlight Todo          cterm=BOLD ctermfg=17 ctermbg=228 gui=BOLD guifg=#101060
 highlight Type          cterm=NONE ctermfg=149 ctermbg=NONE gui=NONE guifg=#afd75f guibg=NONE
 highlight Underlined    cterm=BOLD ctermfg=227 ctermbg=NONE gui=BOLD guifg=#df9f2d guibg=NONE
 
-highlight Pmenu         cterm=NONE ctermfg=253 ctermbg=238 gui=NONE guifg=#eeeeee guibg=#4e4e8f
-highlight PmenuSel      cterm=BOLD ctermfg=253 ctermbg=61 gui=BOLD guifg=#eeeeee guibg=#2e2e3f
+highlight Pmenu         cterm=NONE ctermfg=253 ctermbg=17 gui=NONE guifg=#eeeeee guibg=#1a1a4e
+highlight PmenuSel      cterm=BOLD ctermfg=253 ctermbg=61 gui=BOLD guifg=#eeeeee guibg=#3e3e8f
 highlight PmenuSbar     cterm=BOLD ctermfg=253 ctermbg=63 gui=BOLD guifg=#eeeeee guibg=#6e6eaf
 highlight PmenuThumb    cterm=BOLD ctermfg=253 ctermbg=55 gui=BOLD guifg=#eeeeee guibg=#5f00af
 
