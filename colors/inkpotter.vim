@@ -71,10 +71,17 @@ highlight PmenuSel      cterm=BOLD ctermfg=253 ctermbg=61 gui=BOLD guifg=#eeeeee
 highlight PmenuSbar     cterm=BOLD ctermfg=253 ctermbg=63 gui=BOLD guifg=#eeeeee guibg=#6e6eaf
 highlight PmenuThumb    cterm=BOLD ctermfg=253 ctermbg=55 gui=BOLD guifg=#eeeeee guibg=#5f00af
 
-highlight SpellBad      cterm=NONE ctermfg=NONE ctermbg=52 gui=UNDERCURL guisp=#cc6666
-highlight SpellRare     cterm=NONE ctermfg=NONE ctermbg=53 gui=UNDERCURL guisp=#cc66cc
-highlight SpellLocal    cterm=NONE ctermfg=NONE ctermbg=58 gui=UNDERCURL guisp=#cccc66
-highlight SpellCap      cterm=NONE ctermfg=NONE ctermbg=23 gui=UNDERCURL guisp=#66cccc
+if has('gui_running')
+    highlight SpellBad      cterm=NONE ctermfg=NONE ctermbg=52 gui=UNDERCURL guisp=#cc6666
+    highlight SpellRare     cterm=NONE ctermfg=NONE ctermbg=53 gui=UNDERCURL guisp=#cc66cc
+    highlight SpellLocal    cterm=NONE ctermfg=NONE ctermbg=58 gui=UNDERCURL guisp=#cccc66
+    highlight SpellCap      cterm=NONE ctermfg=NONE ctermbg=23 gui=UNDERCURL guisp=#66cccc
+else
+    highlight SpellBad      cterm=NONE ctermfg=NONE ctermbg=52 gui=NONE guifg=NONE guibg=#661111
+    highlight SpellRare     cterm=NONE ctermfg=NONE ctermbg=53 gui=NONE guifg=NONE guibg=#661166
+    highlight SpellLocal    cterm=NONE ctermfg=NONE ctermbg=58 gui=NONE guifg=NONE guibg=#666611
+    highlight SpellCap      cterm=NONE ctermfg=NONE ctermbg=23 gui=NONE guifg=NONE guibg=#116666
+endif
 
 highlight MatchParen    cterm=BOLD ctermfg=14 ctermbg=18 gui=BOLD guifg=Aqua guibg=DarkBlue
 
