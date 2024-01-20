@@ -15,9 +15,11 @@ highlight Normal        cterm=None ctermfg=255 ctermbg=233 gui=NONE guifg=#eeeee
 
 highlight CursorLine    cterm=UNDERLINE ctermfg=NONE ctermbg=NONE gui=UNDERLINE guifg=NONE guibg=NONE
 highlight CursorLineNr  cterm=UNDERLINE ctermfg=17 ctermbg=15 gui=UNDERLINE guifg=#00005f guibg=White
+highlight CursorColumn  cterm=NONE ctermfg=NONE ctermbg=237 guifg=NONE guibg=#303030
 
 highlight IncSearch     cterm=BOLD ctermfg=232 ctermbg=215 gui=BOLD guifg=#303030 guibg=#cd8b60
 highlight Search        cterm=NONE ctermfg=232 ctermbg=130 gui=NONE guifg=#101010 guibg=#b87b57
+highlight CurSearch     cterm=NONE ctermfg=232 ctermbg=218 gui=NONE guifg=#101010 guibg=#ffb9df
 highlight ErrorMsg      cterm=BOLD ctermfg=16 ctermbg=124 gui=BOLD guifg=#ffffff guibg=#ce4e4e
 highlight WarningMsg    cterm=BOLD ctermfg=16 ctermbg=202 gui=BOLD guifg=#ffffff guibg=#ce8e4e
 highlight ModeMsg       cterm=BOLD ctermfg=61 ctermbg=NONE gui=BOLD guifg=#7e7eae guibg=NONE
@@ -56,6 +58,7 @@ highlight Constant      cterm=NONE ctermfg=215 ctermbg=NONE gui=NONE guifg=#ffcd
 highlight String        cterm=NONE ctermfg=222 ctermbg=NONE gui=NONE guifg=#ffd787 guibg=NONE
 highlight Error         cterm=NONE ctermfg=231 ctermbg=52 gui=NONE guifg=#ffffff guibg=#6e2e2e
 highlight Identifier    cterm=NONE ctermfg=110 ctermbg=NONE gui=NONE guifg=#87aff7 guibg=NONE
+highlight! link         Function Identifier
 highlight Ignore        cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 highlight Number        cterm=NONE ctermfg=9 ctermbg=NONE gui=NONE guifg=Red guibg=NONE
 highlight PreProc       cterm=NONE ctermfg=35 ctermbg=NONE gui=NONE guifg=#00af5f guibg=NONE
