@@ -53,7 +53,7 @@ highlight SpecialKey    cterm=BOLD ctermfg=246 ctermbg=237 gui=BOLD guifg=#90909
 highlight Title         cterm=BOLD ctermfg=97 ctermbg=NONE gui=BOLD guifg=#ff005f guibg=NONE
 highlight Visual        cterm=NONE ctermfg=231 ctermbg=61 gui=NONE guifg=#eeeeee guibg=#4e4e8f
 
-highlight Comment       cterm=NONE ctermfg=66 ctermbg=NONE gui=ITALIC guifg=#5f8787 guibg=NONE
+highlight Comment       cterm=ITALIC ctermfg=66 ctermbg=NONE gui=ITALIC guifg=#5f8787 guibg=NONE
 highlight Constant      cterm=NONE ctermfg=215 ctermbg=NONE gui=NONE guifg=#ffcd8b guibg=NONE
 highlight String        cterm=NONE ctermfg=222 ctermbg=NONE gui=NONE guifg=#ffd787 guibg=NONE
 highlight Error         cterm=NONE ctermfg=231 ctermbg=52 gui=NONE guifg=#ffffff guibg=#6e2e2e
