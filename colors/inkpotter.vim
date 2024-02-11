@@ -11,6 +11,9 @@ endif
 
 let colors_name = "inkpotter"
 
+" :h highlight-groups
+" :h group-name
+
 highlight Normal        cterm=None ctermfg=255 ctermbg=233 gui=NONE guifg=#eeeeee guibg=#000000
 
 highlight CursorLine    cterm=UNDERLINE ctermfg=NONE ctermbg=NONE gui=UNDERLINE guifg=NONE guibg=NONE
@@ -64,7 +67,9 @@ highlight Number        cterm=NONE ctermfg=9 ctermbg=NONE gui=NONE guifg=Red gui
 highlight PreProc       cterm=NONE ctermfg=35 ctermbg=NONE gui=NONE guifg=#00af5f guibg=NONE
 highlight Special       cterm=NONE ctermfg=135 ctermbg=NONE gui=NONE guifg=#c080d0 guibg=NONE
 highlight SpecialChar   cterm=NONE ctermfg=135 ctermbg=235 gui=NONE guifg=#d580e8 guibg=#333333
+highlight link Delimiter Special
 highlight Statement     cterm=NONE ctermfg=69 ctermbg=NONE gui=NONE guifg=#757bf8 guibg=NONE
+highlight Operator      cterm=NONE ctermfg=141 ctermbg=NONE gui=NONE guifg=#aa80f5 guibg=NONE
 highlight Todo          cterm=BOLD ctermfg=17 ctermbg=228 gui=BOLD guifg=#101060 guibg=#f8fa6a
 highlight Type          cterm=NONE ctermfg=149 ctermbg=NONE gui=NONE guifg=#afd75f guibg=NONE
 highlight Underlined    cterm=BOLD ctermfg=227 ctermbg=NONE gui=BOLD guifg=#df9f2d guibg=NONE
