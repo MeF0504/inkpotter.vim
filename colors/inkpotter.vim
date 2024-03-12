@@ -59,6 +59,7 @@ highlight Visual        cterm=NONE ctermfg=231 ctermbg=61 gui=NONE guifg=#eeeeee
 highlight Comment       cterm=ITALIC ctermfg=66 ctermbg=NONE gui=ITALIC guifg=#5f8787 guibg=NONE
 highlight Constant      cterm=NONE ctermfg=215 ctermbg=NONE gui=NONE guifg=#ffcd8b guibg=NONE
 highlight String        cterm=NONE ctermfg=222 ctermbg=NONE gui=NONE guifg=#ffd787 guibg=NONE
+highlight Quote         cterm=NONE ctermfg=183 ctermbg=None gui=NONE guifg=#d7afff guibg=NONE
 highlight Error         cterm=NONE ctermfg=231 ctermbg=52 gui=NONE guifg=#ffffff guibg=#6e2e2e
 highlight Identifier    cterm=NONE ctermfg=110 ctermbg=NONE gui=NONE guifg=#87aff7 guibg=NONE
 highlight! link         Function Identifier
@@ -67,7 +68,7 @@ highlight Number        cterm=NONE ctermfg=9 ctermbg=NONE gui=NONE guifg=Red gui
 highlight PreProc       cterm=NONE ctermfg=35 ctermbg=NONE gui=NONE guifg=#00af5f guibg=NONE
 highlight Special       cterm=NONE ctermfg=135 ctermbg=NONE gui=NONE guifg=#c080d0 guibg=NONE
 highlight SpecialChar   cterm=NONE ctermfg=135 ctermbg=235 gui=NONE guifg=#d580e8 guibg=#333333
-highlight link Delimiter Special
+highlight Delimiter     cterm=NONE ctermfg=33 ctermbg=NONE gui=NONE guifg=#5a90e8 guibg=NONE
 highlight Statement     cterm=NONE ctermfg=69 ctermbg=NONE gui=NONE guifg=#757bf8 guibg=NONE
 highlight Operator      cterm=NONE ctermfg=141 ctermbg=NONE gui=NONE guifg=#aa80f5 guibg=NONE
 highlight Todo          cterm=BOLD ctermfg=17 ctermbg=228 gui=BOLD guifg=#101060 guibg=#f8fa6a
